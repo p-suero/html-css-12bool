@@ -1,0 +1,41 @@
+/* selettori dell'intestazione */
+header {
+    margin: 20px;
+}
+
+#title {
+text-align: center;
+font-size: 30px;
+font-weight: 800;
+font-family: arial;
+color: blue;
+border-radius: 50px;
+background: gold;
+
+}
+
+/*selettori della della drawing section*/
+#drawing {
+    border-top: 3px solid green;
+    padding-top: 20px;
+}
+
+#drawing > .container div[class^="col"] {
+    height: 43px;
+}
+
+.red {
+    background-color: red;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: blue;
+}
