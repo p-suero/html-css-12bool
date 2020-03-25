@@ -1,7 +1,4 @@
 /* selettori dell'intestazione */
-header {
-    margin: 20px;
-}
 
 #title {
 text-align: center;
@@ -11,13 +8,16 @@ font-family: arial;
 color: blue;
 border-radius: 50px;
 background: gold;
+}
 
+header .container {
+    border-bottom: 2px solid green;
+    padding: 20px 0;
 }
 
 /*selettori della della drawing section*/
 #drawing {
-    border-top: 3px solid green;
-    padding-top: 20px;
+        padding-top: 20px;
 }
 
 #drawing > .container div[class^="col"] {
